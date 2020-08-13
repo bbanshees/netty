@@ -8,7 +8,7 @@ public class JavaNative {
     // Native method declaration
     private native void sayHello();
 
-    // Test Driver
+    // test Driver
     public static void main(String[] args) {
         new JavaNative().sayHello(); // Invoke native method
     }
